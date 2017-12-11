@@ -1,0 +1,25 @@
+language: node_js
+node_js: 6.12.0
+cache:
+  apt: true
+  directories:
+    - node_modules
+addons:
+  ssh_known_hosts: git.coding.net
+script:
+  hexo clean & hexo generate
+branches:
+  only:
+  - source
+env:
+  global:
+    secure: "a53csuwMMiWudKbHJqdzlZr4e0ftmT6qt2BtZ+n6gwjY56Bjcs6lM1Q5tZIRjwNYTlaMU      3UK1GI0xjXpERE+Rj5E9gk0Dia4QTveOT8KZa6loTzJUDjj7s2W3pIEKWoPG8Ute0drc4CVWnm12W90H      73cKV3CZJPfiuGA8++a8QyS4J3qs9FUyKZdjEeUJBnhymY+RQOLPue1MrvCtugxSSdV5jBagP2Udw0+U      QSInOLn8rWvMHPdsoYpaXZKaYHFc+nRqJgQbAtahjjR/OTsTzMyWvZxIKyPLGqRI6mjsprGQ5JAscfWR      2lTBHXgklFJR+lIDP4UrRIDfISerSocZo8+WgqOHxeWzwaSEvB9XH9EaQDZLXBR9UURC1/3uqf0Dyuhb      PK5Sj8sJ8ms3YwNvNYOiOlWj06BBCC5yrmzslfnrmEXp/wXuNXDW+cnJv4xNuwYrrwZG1KfN64umRtZJ      01jL1zVZQQFCrinOzR15mvTUeAVUBE3OvN0F5oV8lexk0K/Lo1iezZEa1jPDen1d2mWKJu73woD2S8eR      l63V0G58tz67z3tMAKi2yypbX2PBo0tFiJu+jcxcDXY+Yl9/Yik+bJAfIDOmBNCXlO56a4yQ7aUQVkue      3wz8drV5ttIupIxB/SUEh/gjIZsxjN8AYC0kZYvHuJdx/JOqAuWDH8="
+before_install:
+- openssl aes-256-cbc -K $encrypted_d0af8ee98daa_key -iv $encrypted_d0af8ee98daa_iv
+  -in .travis/4gcbdm.enc -out ~/.ssh/4gcbdm -d  
+deploy:
+  provider: script
+  script: sh .travis/deploy.sh
+  skip_cleanup: true
+  on:
+    branch: source

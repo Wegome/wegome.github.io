@@ -1,0 +1,14 @@
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy*/
+.misc/
+.deploy_git/
+CNAME
+debug.log
+cmd2Ruby.lnk
+DeployGit.bat
+DeployGitF.bat

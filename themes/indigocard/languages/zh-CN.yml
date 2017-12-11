@@ -1,0 +1,13 @@
+global:
+  search_input_hint: "输入要查找的关键字"
+
+post:
+  continue_reading: "阅读全文…"
+  last_updated: "最后更新："
+
+footer:
+  license: '博客遵循 <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" title="BY-NC-SA 4.0"><i class="icon icon-lg icon-cc"></i></a>'
+
+tag:
+  all: "全部"
+  tags: "标签"

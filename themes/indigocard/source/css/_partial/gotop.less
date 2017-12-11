@@ -1,0 +1,36 @@
+#gotop {
+    position: fixed;
+    right: 16px;
+    bottom: 18%;   //30px;
+    z-index: 30;
+    width: 52px;
+    height: 52px;
+    line-height: 52px;   //56px;
+    text-align: center;
+    color: #fff;
+    background: fade(@accentColor, 60%);
+    border-radius: 10%;   //50%;
+    opacity: 0;
+    .boxShadow();
+    .transform(translateX(200%));
+
+	&:hover {
+        background: fade(@accentColor, 90%);
+        opacity: 0.9;
+    }
+
+    &.in {
+        opacity: 0.9;
+        .transform(none);
+    }
+
+}
+
+@media screen and (max-width:760px) {
+    #gotop {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+}

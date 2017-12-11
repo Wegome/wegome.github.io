@@ -1,0 +1,16 @@
+<footer class="footer">
+    <div class="top">
+        <p>
+			<span><%- __('footer.license') %><%- partial('plugins/site-visit') %></span>
+            <% if(theme.ICP_license) {%>
+                <span><a href="http://www.miitbeian.gov.cn/" target="_blank"><%- theme.ICP_license %></a></span>
+            <% } %>
+		</p>
+    </div>
+    <div class="bottom">
+        <p>
+            <span><a href="https://github.com/yscoder/hexo-theme-indigo" target="_blank">indigo</a> Theme by Yusen.</span>
+            <span><a href="<%- config.root %>"><%-config.title %></a> &copy; <%if (theme.since_year && theme.since_year < date(new Date(), 'YYYY')) {%><%- theme.since_year %> - <%}%><%- date(new Date(), 'YYYY') %></span>
+        </p>
+    </div>
+</footer>

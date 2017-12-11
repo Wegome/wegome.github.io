@@ -1,0 +1,6 @@
+<% if(theme.show_last_updated){ %>
+<span class="post-time">
+    <%= __('post.last_updated') %><time datetime="<%- date_xml(post.updated) %>" itemprop="dateUpdated"><%- post.updated.format(config.date_format) %></time>
+	<br><font color=red>！！！转载请保留以上信息！！！</font>    <!-- add -->
+</span><br>
+<%} %>

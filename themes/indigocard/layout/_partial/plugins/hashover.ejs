@@ -1,0 +1,15 @@
+<% if (theme.hashover){ %>
+<div class="comments" id="comments">
+    <div id="hashover"></div>
+</div>
+    <script type="text/javascript">
+        function() {
+			var s = document.createElement('script'),
+			t = document.getElementsByTagName('script')[0];
+			s.type = 'text/javascript';
+			s.async = true;
+			s.src = "<%- url_for(theme_js('/js/hashover/hashover', cache)) %>";
+			t.parentNode.insertBefore(s, t);
+		})();
+	</script>
+<% } %>
