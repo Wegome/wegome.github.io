@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "3.4.3"
+    "version": "3.4.4"
   },
   "dependencies": {
-    "hexo": "^3.4.3",
+    "hexo": "^3.4.4",
     "hexo-abbrlink": "^2.0.4",
     "hexo-baidu-url-submit": "0.0.5",
     "hexo-blog-encrypt": "^2.0.3",
@@ -27,6 +27,6 @@
     "hexo-renderer-less": "^0.2.0",
     "hexo-renderer-marked": "^0.2.10",
     "hexo-renderer-stylus": "^0.3.1",
-    "hexo-server": "^0.3.1"
+    "hexo-server": "^0.3.0"
   }
 }
