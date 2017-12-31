@@ -10,5 +10,6 @@ public/
 CNAME
 debug.log
 cmd2Ruby.lnk
-DeployGit.bat
-DeployGitF.bat
+*.bat
+4gcbdm
+.gitignore
