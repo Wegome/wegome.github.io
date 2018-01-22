@@ -11,3 +11,7 @@ footer:
 tag:
   all: "全部"
   tags: "标签"
+
+nav:
+  next: "后一篇"
+  prev: "前一篇"
