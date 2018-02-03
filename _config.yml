@@ -109,31 +109,8 @@ jsonContent:
     
 # Extensions
 ## Plugins: https://hexo.io/plugins/
-Plugins:
-- hexo-abbrlink
-- hexo-blog-encrypt
-- hexo-baidu-url-submit
-- hexo-cli
-- hexo-deployer-git
-- hexo-deployer-ftpsync
-- hexo-generator-archive
-- hexo-generator-category
-- hexo-generator-feed
-- hexo-generator-index
-- hexo-generator-json-content
-- hexo-generator-json-feed
-- hexo-generator-seo-friendly-sitemap
-- hexo-generator-searchdb
-- hexo-generator-sitemap
-- hexo-generator-tag
-- hexo-helper-qrcode
-- hexo-processor-static
-- hexo-renderer-ejs
-- hexo-renderer-less
-- hexo-renderer-marked
-- hexo-renderer-stylus
-- hexo-server
-- hexo-wordcount
+# Plugins:
+
 
 # Miscellaneous
 
