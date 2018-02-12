@@ -6,6 +6,8 @@ cache:
     - node_modules
 addons:
   ssh_known_hosts: git.coding.net
+before_install:
+  - export TZ='Asia/Shanghai'
 script:
   hexo clean & hexo generate
 branches:
