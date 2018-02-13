@@ -138,9 +138,9 @@ gitment: false
 
 # Valine Comment system. https://valine.js.org
 valine:
-  enable: true # 如果你想使用valine，请将值设置为 true
-  appId: Oa9sH7eybP54p89gCPi1M4Gi-gzGzoHsz
-  appKey: hd36zsRXsABbEo9xKktkVWDo
+  enable: true
+  appId: olVvvCLnmC5nKeBbzbc4o0aT-gzGzoHsz
+  appKey: 6PzRIlHrejISfXLQDYmH2CO7
   notify: false # Mail notify
   verify: false # Verify code
   avatar: mm # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
