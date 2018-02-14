@@ -28,9 +28,9 @@ menu:
     # text: RSS订阅
     # url: /rss2.xml
     # target: _blank
-  # link:
-    # text: 畅享衡山
-    # url: http://daheng3.top
+  external-link:
+    text: 博萃
+    url: /blogroll
     # target: _blank
   # sitemap:
     # text: 网站地图
@@ -65,6 +65,7 @@ archives_title: 知诺 归档    #Archives
 categories_title: 知诺 分类    #Categories
 # links_title: 知诺 链接    #Links
 intro_title: 知诺 自话    #intro
+blogroll_title: 博文荟萃
 
 # 文章摘要渲染方式: 为 true 时将渲染为 html，否则为文本
 excerpt_render: false
