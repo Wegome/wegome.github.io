@@ -37,8 +37,8 @@
 		        <% if(theme.feed) { %>
                 <ul style="padding: 0 16px;"><a href="<%=theme.rss %>" target="_blank"><i class="icon icon-rss-square"></i> <%- theme.feed.name %></a></ul>
               <% } %>
-		        <% if(theme.hostedby) { %>
-                <ul style="padding: 0 16px;">Hosted by <a href="<%- theme.hostedby.url %>" target="_blank" style="font-weight: bold"><%- theme.hostedby.name %></a></ul>
+		        <% if(theme.hostedby.enable) { %>
+                <ul style="padding: 0 16px;">Hosted by <a href="<%- theme.hostedby.hostedby_url %>" target="_blank" style="font-weight: bold"><%- theme.hostedby.hostedby_name %></a></ul>
               <% } %>
 
 

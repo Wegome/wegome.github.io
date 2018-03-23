@@ -173,9 +173,10 @@ about: 山高江水潺，风清月儿圆。   # 用户页面中作者相关的�
 feed: 
   name: RSS 订阅
 
-hostedby: 
-  name: Coding Pages
-  url: https://pages.coding.me
+hostedby:
+  enable: true
+  hostedby_url: https://pages.coding.me
+  hostedby_name: Coding Pages
 
 # “不蒜子”访问量统计，详见 http://ibruce.info/2015/04/04/busuanzi/。若要使用原计数配置，需在\layout\_partial\script.ejs中启用
 visit_counter: 
