@@ -28,7 +28,7 @@ menu:
     # text: RSS订阅
     # url: /rss2.xml
     # target: _blank
-  external-link:
+  rss-square:
     text: 博萃
     url: /blogroll
     # target: _blank
@@ -54,7 +54,7 @@ brand: /images/brand.jpg
 favicon: /images/favicon.ico
 
 # email
-email: brux4me@gmail.com
+email: budaig@outlook.com
 
 # 设置 Android L Chrome 浏览器状态栏颜色
 color: '#65002F'  #or '#65001D'
