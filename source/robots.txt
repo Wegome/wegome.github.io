@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /vendors/
+Disallow: /js/
+Disallow: /lib/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /fancybox/
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+Sitemap: http://www.zhinuo.space/sitemap.xml
