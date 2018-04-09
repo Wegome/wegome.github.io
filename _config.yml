@@ -25,7 +25,7 @@ keyword: 布袋知诺 知行诺一 # your keywords
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://www.zhinuo.space
 root: /
-permalink: :category/:abbrlink.html    # :category-:abbrlink.html    # :category/:id.html    # :id-:title.html 
+permalink: article/:abbrlink.html    # :category-:abbrlink.html    # :category/:id.html    # :id-:title.html
 permalink_default:
   lang: zh-CN
 
@@ -162,3 +162,20 @@ lazyload:
   enable: true
   onlypost: true
   loadingImg: /images/loading.png
+
+
+# hexo-generator-amp
+# The following settings is the quick start options.
+generator_amp:
+  templateDir: amp-template
+  assetDistDir: amp-dist
+  logo:
+    path: sample/sample-logo.png
+    width: 600
+    height: 60
+  substituteTitleImage:
+    path: sample/sample-substituteTitleImage.png
+    width: 1024
+    height: 800
+  warningLog: false   # To display warning, please set true.
+  generateAmpPath: amp/article/:abbrlink.html

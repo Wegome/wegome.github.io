@@ -12,6 +12,9 @@
     <% if(theme.canonical){ %>
     <link rel="canonical" href="<%- (theme.canonical + url_for(page.path)).replace(/index\.html$/, '') %>">
     <% }%>
+    <% if (is_post() && config.generator_amp){ %>
+      <link rel="amphtml" href="<%= config.url %><%= config.root %><%= page.path %>/amp/index.html">
+    <% } %>
     <%
         var title = page.title;
 
