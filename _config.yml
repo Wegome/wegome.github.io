@@ -167,15 +167,31 @@ lazyload:
 # hexo-generator-amp
 # The following settings is the quick start options.
 generator_amp:
-  templateDir: amp-template
+  templateDir:  amp-template
   assetDistDir: amp-dist
   logo:
     path: sample/sample-logo.png
-    width: 600
-    height: 60
+    width: 600 # width <= 600px
+    height: 60  # width <= 60px
   substituteTitleImage:
     path: sample/sample-substituteTitleImage.png
-    width: 1024
+    width: 1024 # width >= 696px
     height: 800
-  warningLog: false   # To display warning, please set true.
-  generateAmpPath: amp/article/:abbrlink.html
+  placeholderImg:
+    path: sample/sample-placeholder.png
+  generateAmpPath: amp/article/:abbrlink.html   #(optional) Custom AMP HTML Path
+  theme:
+    menu:   #(optional) Sample AMP template's menu option
+      首页: /   #(optional) example menu
+      归档: /archives   #(optional) example menu
+      #about: /about
+      #tags: /tags
+      #categories: /categories
+      #links: /links
+      自话: /intro
+      博萃: /blogroll
+    category_posts: false   #(optional) Enable category posts
+    category_posts_detailed: false   #(optional) Enable detailed category posts
+    latests: true   #(optional) Enable latests posts
+    list_limts: 3   #(optional) This option limit the number of display in the above lists (default:5)
+  cache: hexo-generator-amp-cached.json   #(optional) Enable cache (Improve generation speed)
