@@ -23,4 +23,6 @@ RSS （简易信息聚合）阅读器可以更方便的浏览小站文章。
 ---------------------------------------
 
 ** <font color=green face=微软雅黑 size=4>友站链接：<font> **
+** <font color=green face=微软雅黑 size=3.5><a href="http://www.rixin.site" target="_blank" rel="external">日新知</a>主要摘录和学习古文经典，转摘和分享中医文章，以及个人感悟随想。</font> **
+** <font color=green face=微软雅黑 size=3.5><a href="http://www.daheng3.top" target="_blank" rel="external">童畅享</a>优秀少儿动画介绍和感想，少儿教育理念方式方法的转摘，以及身为父母的你我他们的育儿体悟。</font> **
 ** <font color=green face=微软雅黑 size=3.5><a href="http://daheng3.top" target="_blank" rel="external">畅享衡山</a> | 不一样的视界！一个了解大衡山，发现湖湘，窥看海内外的视界平台；一个为“你我他”排忧解难，互助互惠的实在平台。</font> **
