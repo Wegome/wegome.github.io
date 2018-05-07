@@ -12,8 +12,9 @@ ssh-add ~/.ssh/4gcbdm
 cp .travis/ssh_config ~/.ssh/config
 
 # Set Git config
-git config --global user.name "budaim"
-git config --global user.email brooks.chen@aol.com
+git init
+git config user.name "budaim"
+git config user.email "brooks.chen@aol.com"
 # Deploy to GitHub
 hexo deploy
 rm -rf ~/.ssh
