@@ -28,9 +28,9 @@ menu:
     # text: RSS订阅
     # url: /rss2.xml
     # target: _blank
-  rss-square:
-    text: 博萃
-    url: /blogroll
+  # rss-square:
+    # text: 博萃
+    # url: /blogroll
     # target: _blank
   # sitemap:
     # text: 网站地图
