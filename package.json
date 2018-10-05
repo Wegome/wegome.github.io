@@ -9,7 +9,7 @@
     "hexo": "^3.7.0",
     "hexo-abbrlink": "^2.0.5",
     "hexo-baidu-url-submit": "0.0.5",
-    "hexo-blog-encrypt": "^2.0.7",
+    "hexo-blog-encrypt": "^2.0.9",
     "hexo-blogroll": "0.0.5",
     "hexo-cli": "^1.1.0",
     "hexo-deployer-git": "^0.3.1",
