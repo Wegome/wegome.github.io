@@ -182,6 +182,10 @@ hostedby:
   enable: true
   hostedby_url: https://pages.coding.me
   hostedby_name: Coding Pages
+# hostedby:
+  # enable: true
+  # hostedby_url: https://www.netlify.com
+  # hostedby_name: netlify
 
 # “不蒜子”访问量统计，详见 http://ibruce.info/2015/04/04/busuanzi/。若要使用原计数配置，需在\layout\_partial\script.ejs中启用
 visit_counter: 
