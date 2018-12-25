@@ -4,6 +4,9 @@ global:
 post:
   continue_reading: "阅读全文…"
   last_updated: "最后更新："
+  site_uv: "访客数"
+  site_pv: "访问量"
+  article_pv: "浏览"
 
 footer:
   license: '博客遵循 <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" title="BY-NC-SA 4.0"><i class="icon icon-lg icon-cc"></i></a>'

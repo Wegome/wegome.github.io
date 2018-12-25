@@ -190,7 +190,7 @@ hostedby:
 # “不蒜子”访问量统计，详见 http://ibruce.info/2015/04/04/busuanzi/。若要使用原计数配置，需在\layout\_partial\script.ejs中启用
 visit_counter: 
   # site_uv: 站点总访客数：
-  site_pv: 
+  site_pv:
 
 # 动态定义title
 title_change:
