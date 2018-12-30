@@ -7,6 +7,7 @@ post:
   site_uv: "访客数"
   site_pv: "访问量"
   article_pv: "浏览"
+  read_qr: "移动设备 扫码阅读"
 
 footer:
   license: '博客遵循 <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" title="BY-NC-SA 4.0"><i class="icon icon-lg icon-cc"></i></a>'
